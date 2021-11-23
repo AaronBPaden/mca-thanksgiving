@@ -99,3 +99,9 @@ p {
 .footer > p {
     color: white;
 }
+
+/* overrides */
+
+.hidden {
+    display: none;
+}
