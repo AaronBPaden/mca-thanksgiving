@@ -6,7 +6,7 @@ const getActive = () => menuItems.filter(e => e.classList.contains('active'));
 
 menuItems.forEach((e) => {
 	e.addEventListener('click', (event) => {
-		if ((getActive().length < 4 || e.classList.contains('active'))
+		if ((getActive().length < 5 || e.classList.contains('active'))
 		&& document.getElementById('menuContainer').classList.contains('hidden') === false) {
 			e.classList.toggle('active');
 		}
